@@ -8,7 +8,10 @@
         <App id="app">
             <pages>
                 <Page id="page" title="{i18n>title}">
-                    <content />
+                    <Carousel>
+                        <Image src="https://s3-sa-east-1.amazonaws.com/db-image-upload/banners/hayamax/PRD/main/banner-home-natal.png"/>
+                        <Image src="https://s3-sa-east-1.amazonaws.com/db-image-upload/banners/hayamax/PRD/main/banner-home-natal_gamer.png"/>
+                    </Carousel>
                 </Page>
             </pages>
         </App>
