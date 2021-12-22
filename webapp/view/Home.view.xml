@@ -11,6 +11,7 @@
                     <Carousel>
                         <Image src="https://s3-sa-east-1.amazonaws.com/db-image-upload/banners/hayamax/PRD/main/banner-home-natal.png"/>
                         <Image src="https://s3-sa-east-1.amazonaws.com/db-image-upload/banners/hayamax/PRD/main/banner-home-natal_gamer.png"/>
+                        <Image src="https://s3-sa-east-1.amazonaws.com/db-image-upload/banners/hayamax/PRD/main/banner-home-natal.png"/>
                     </Carousel>
                 </Page>
             </pages>
