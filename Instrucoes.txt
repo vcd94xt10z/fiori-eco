@@ -1,0 +1,4 @@
+Para enviar sua aplicação para um sistema SAP em uma request, siga os tutorias abaixo:
+https://blogs.sap.com/2021/04/05/deploy-ui5-application-into-abap-repository-using-vscode/
+https://www.npmjs.com/package/nwabap-ui5uploader
+https://sap.github.io/ui5-tooling/pages/CLI/
