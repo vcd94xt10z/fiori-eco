@@ -2,3 +2,29 @@ Para enviar sua aplicação para um sistema SAP em uma request, siga os tutorias
 https://blogs.sap.com/2021/04/05/deploy-ui5-application-into-abap-repository-using-vscode/
 https://www.npmjs.com/package/nwabap-ui5uploader
 https://sap.github.io/ui5-tooling/pages/CLI/
+
+Resumindo
+
+# Instale o Cliente UI5
+npm install --global @ui5/cli
+
+# Instale o nwabap
+npm install --global nwabap-ui5uploader
+
+# Instale ou atualize o nodejs para a ultima versão
+
+# Instale ou atualize seu VSCode para a ultima versão se sua versão for antiga
+
+# Entre no diretório raiz da sua aplicação
+cd /app
+
+# Crie o arquivo de configuração .nwabaprc
+
+# Edite seu package.json e atualize a seguinte chave
+"deploy": "npx nwabap upload"
+
+# Execute a build
+ui5 build
+
+# Envie seu código para o SAP
+npm run deploy

@@ -1,0 +1,12 @@
+{ 
+    "base": "./dist", 
+    "conn_usestrictssl" : false, 
+    "conn_server": "http://sap.local:80/",
+    "conn_client" : "100", 
+    "conn_user": "",
+    "conn_password": "",
+    "abap_package": "$TMP",
+    "abap_bsp": "zfiorieco",
+    "abap_bsp_text": "Test VSCode App",
+    "abap_language": "pt"
+}
