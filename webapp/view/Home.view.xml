@@ -47,12 +47,7 @@
                                     icon="sap-icon://cart"
                                     type="Default"
                                     text="Carrinho">
-                                    <customData>
-                                        <BadgeCustomData
-                                            key="badge"
-                                            value="2"
-                                            visible="true"/>
-                                    </customData>
+                                    <customData></customData>
                                 </Button>
 
                             </html:div>

@@ -28,3 +28,6 @@ ui5 build
 
 # Envie seu código para o SAP
 npm run deploy
+
+# Acesse seu app
+http://meusap.local:80/sap/bc/ui5_ui5/sap/zapp1/index.html?sap-client=123
