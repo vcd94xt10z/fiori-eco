@@ -42,7 +42,7 @@
                             <html:div class="exampleDiv">
 
                                 <Button
-                                    id="BadgedButton"
+                                    id="CarrinhoButton"
                                     class="sapUiTinyMarginBeginEnd"
                                     icon="sap-icon://cart"
                                     type="Default"
