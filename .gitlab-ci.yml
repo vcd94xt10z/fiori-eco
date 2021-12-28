@@ -1,0 +1,15 @@
+image: alpine:latest
+
+stages:
+ - deploy
+
+before_script:
+  #- sh devops/docker_install.sh > /dev/null
+  - sh devops/docker_install.sh
+  - chmod +x ./devops/deploy.sh
+deploy:
+  stage: deploy
+  allow_failure: false
+  only:
+    - master
+  script: sh ./devops/deploy.sh
