@@ -23,6 +23,9 @@ cd /app
 # Edite seu package.json e atualize a seguinte chave
 "deploy": "npx nwabap upload"
 
+# instale e atualize as dependências
+npm install
+
 # Execute a build
 ui5 build
 
