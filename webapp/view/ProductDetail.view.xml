@@ -1,0 +1,26 @@
+<mvc:View
+    controllerName="vcd94xt10z.fiorieco.fiorieco.controller.ProductDetail"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:tnt="sap.tnt"
+    xmlns:card="sap.f.cards"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}" showNavButton="true" navButtonPress="onNavBack">
+                    <mvc:XMLView viewName="vcd94xt10z.fiorieco.fiorieco.view.Header"/>
+
+                    <Text text="detalhes"/>
+
+                    <mvc:XMLView viewName="vcd94xt10z.fiorieco.fiorieco.view.Footer"/>
+
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

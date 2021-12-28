@@ -7,8 +7,9 @@ sap.ui.define([
     function (Controller) {
         "use strict";
 
-        return Controller.extend("vcd94xt10z.fiorieco.fiorieco.controller.Home", {
+        return Controller.extend("vcd94xt10z.fiorieco.fiorieco.controller.Footer", {
             onInit: function () {
+
             }
         });
     });
